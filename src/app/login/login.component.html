@@ -1,0 +1,12 @@
+<div class="example-container">
+    <mat-form-field>
+      <input matInput [(ngModel)]="loginData.email" placeholder="Email" type="email">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <input matInput [(ngModel)]="loginData.password" placeholder="password" type="password">
+    </mat-form-field>
+    <button (click) ="post()" mat-raised-button color="primary">Login</button>
+  
+    
+  </div>
